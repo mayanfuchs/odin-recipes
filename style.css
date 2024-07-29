@@ -1,4 +1,14 @@
 /* first css styling solo */
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
 body {
     font-family: 'Roboto', Helvetica, sans-serif;
     background-color: #f3f4f5;
@@ -9,7 +19,10 @@ body {
     background-color: white;
     border-radius: 16px;
     text-align: center;
+    box-sizing: border-box;
     padding: 16px 16px 16px 16px;
+    width: 980px;
+    margin: 24px auto;
 }
 
 a{
@@ -22,10 +35,22 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
 ul li {
+    text-align: center;
     list-style: none;
 }
 
 ol li {
+    text-align: center;
     list-style: none;
 }
